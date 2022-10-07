@@ -1,0 +1,99 @@
+body {
+  background: whitesmoke;
+}
+
+.post {
+  background: white;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+}
+
+.post-header {
+  margin: 10px;
+  display: flex;
+}
+
+.icon-body {
+  display: flex;
+  padding: 5px;
+}
+
+.heart-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.comment-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.share-icon {
+  margin-left: 5px;
+  margin-right: 250px;
+  font-size: 1.5rem;
+}
+
+.save-icon {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.inner-header {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  width: 400px;
+}
+
+.inner-header p:nth-child(2) {
+  color: rgba(172, 170, 170, 0.795);
+}
+
+h4,
+p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.post-header img:first-child {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+img {
+  width: 396px;
+}
+
+.icon {
+  margin: 1px;
+  font-size: 2rem;
+}
+
+.likes {
+  display: flex;
+  font-size: 0.75rem;
+}
+
+.liked {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.and {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.description {
+  margin: 10px;
+}
+
+.description i:first-child{
+    color: rgb(0, 119, 255);
+}
